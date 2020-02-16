@@ -1,36 +1,34 @@
-# ts-library-template
+# mylibrary
 
 [![][ci-badge]][ci-link] [![][version-badge]][version-link]
 [![][license-badge]][license-link] [![][types-badge]][types-link]
 [![][size-badge]][size-link]
 
-[ci-badge]:
-  https://github.com/clebert/ts-library-template/workflows/CI/badge.svg
-[ci-link]: https://github.com/clebert/ts-library-template
-[version-badge]: https://badgen.net/npm/v/ts-library-template
-[version-link]: https://www.npmjs.com/package/ts-library-template
-[license-badge]: https://badgen.net/npm/license/ts-library-template
-[license-link]:
-  https://github.com/clebert/ts-library-template/blob/master/LICENSE
-[types-badge]: https://badgen.net/npm/types/ts-library-template
-[types-link]: https://github.com/clebert/ts-library-template
-[size-badge]: https://badgen.net/bundlephobia/minzip/ts-library-template
-[size-link]: https://bundlephobia.com/result?p=ts-library-template
+[ci-badge]: https://github.com/clebert/mylibrary/workflows/CI/badge.svg
+[ci-link]: https://github.com/clebert/mylibrary
+[version-badge]: https://badgen.net/npm/v/mylibrary
+[version-link]: https://www.npmjs.com/package/mylibrary
+[license-badge]: https://badgen.net/npm/license/mylibrary
+[license-link]: https://github.com/clebert/mylibrary/blob/master/LICENSE
+[types-badge]: https://badgen.net/npm/types/mylibrary
+[types-link]: https://github.com/clebert/mylibrary
+[size-badge]: https://badgen.net/bundlephobia/minzip/mylibrary
+[size-link]: https://bundlephobia.com/result?p=mylibrary
 
-A TypeScript library template.
+TODO.
 
 ## Installation
 
 Using `yarn`:
 
 ```
-yarn add ts-library-template
+yarn add mylibrary
 ```
 
 Using `npm`:
 
 ```
-npm install ts-library-template --save
+npm install mylibrary --save
 ```
 
 ## Development
@@ -55,4 +53,4 @@ via the GitHub UI. This triggers the final publication to npm.
 ---
 
 Copyright (c) 2020, Clemens Akens. Released under the terms of the
-[MIT License](https://github.com/clebert/ts-library-template/blob/master/LICENSE).
+[MIT License](https://github.com/clebert/mylibrary/blob/master/LICENSE).

@@ -1,16 +1,16 @@
 {
-  "name": "ts-library-template",
+  "name": "mylibrary",
   "version": "0.0.0",
-  "description": "A TypeScript library template.",
+  "description": "TODO.",
   "keywords": [
     "TODO"
   ],
   "bugs": {
-    "url": "https://github.com/clebert/ts-library-template/issues"
+    "url": "https://github.com/clebert/mylibrary/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/clebert/ts-library-template.git"
+    "url": "https://github.com/clebert/mylibrary.git"
   },
   "license": "MIT",
   "author": "Clemens Akens <clebert@me.com>",
@@ -24,6 +24,7 @@
   "scripts": {
     "compile": "tsc --build tsconfig.cjs.json tsconfig.esm.json",
     "format": "prettier --write '**/*.{html,js,json,md,ts,tsx,yml}'",
+    "format:test": "prettier --list-different '**/*.{html,js,json,md,ts,tsx,yml}'",
     "release": "npm version",
     "postrelease": "git push --follow-tags",
     "test": "jest"
